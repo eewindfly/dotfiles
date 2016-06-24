@@ -1,0 +1,26 @@
+[user]
+	name = Zack_Hsiao
+	email = zackhsiao@emotibot.com
+[core]
+	editor = mvim -v
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+	lgmg = log  --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  algmg = log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  lg = log  --no-merges --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  alg = log --no-merges --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+	d = difftool
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[push]
+	default = matching
