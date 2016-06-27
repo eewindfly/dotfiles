@@ -2,7 +2,7 @@
 	name = Zack_Hsiao
 	email = zackhsiao@emotibot.com
 [core]
-	editor = mvim -v
+	editor = vim
 [color]
 	diff = auto
 	status = auto
