@@ -3,7 +3,6 @@
 # The script is used to startup a developing environment when reinstall a
 # computer. For now is OSX only
 #############################################################################
-
 export WORKSPACE=~/workspace
 
 #### Install Homebrew
@@ -16,7 +15,7 @@ fi
 brew install wget git tmux cmake mercurial pkg-config
 
 # Retrieve dotfiles
-mkdir $WORKSPACE
+mkdir -p $WORKSPACE
 
 # Setup dotfiles
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
