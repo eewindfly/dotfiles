@@ -309,7 +309,7 @@ if !has("gui_running")
 end
 
 syntax enable
-set bg=dark
+set background=dark
 set t_Co=256
 "let g:solarized_termcolors = 16
 colors solarized
