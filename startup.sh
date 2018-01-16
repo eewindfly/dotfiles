@@ -44,6 +44,9 @@ vim -c 'PluginInstall' -c 'qa!'
 cd ~/.vim/bundle/YouCompleteMe
 ./install.sh --clang-completer
 
+## install pip
+curl -fsSL bootstrap.pypa.io/get-pip.py | sudo python
+
 ### (OPTIONAL) install iterm2
 brew cask install iterm2
 echo "Please manually change iterm2->preferences->profiles->colors to 'solarized dark'"
