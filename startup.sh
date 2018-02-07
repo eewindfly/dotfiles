@@ -23,10 +23,10 @@ ln -s $(pwd)/.zshrc ~/.zshrc
 ln -s $(pwd)/.gitconfig ~/.gitconfig
 ln -s $(pwd)/.vimrc ~/.vimrc
 
-#### Install Oh-My-Zsh
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 #### Change default shell to zsh
 chsh -s /bin/zsh
+#### Install Oh-My-Zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 #### Install Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
