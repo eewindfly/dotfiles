@@ -85,7 +85,9 @@ fi
 
 # vim setting
 alias vi='vim'
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+if has('mac')
+  alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+endif
 
 # GOPATH
 export GOPATH=$HOME/workspace
