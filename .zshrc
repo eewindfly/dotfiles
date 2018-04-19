@@ -85,9 +85,12 @@ fi
 
 # vim setting
 alias vi='vim'
-if has('mac')
-  alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-endif
+case `uname` in
+  Darwin)
+    # commands for OS X go here
+    alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+  ;;
+esac
 
 # GOPATH
 export GOPATH=$HOME/workspace
