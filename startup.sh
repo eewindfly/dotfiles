@@ -19,6 +19,7 @@ mkdir -p $WORKSPACE
 
 # Setup dotfiles
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
+ln -s $(pwd)/.tmux-osx.conf ~/.tmux-osx.conf
 ln -s $(pwd)/.zshrc ~/.zshrc
 ln -s $(pwd)/.gitconfig ~/.gitconfig
 ln -s $(pwd)/.vimrc ~/.vimrc
