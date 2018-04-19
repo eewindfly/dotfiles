@@ -554,4 +554,4 @@ let g:go_highlight_build_constraints = 1
 " autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
 
 " python
-nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<cr>
+nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
