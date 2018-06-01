@@ -17,17 +17,15 @@ brew install wget git tmux cmake mercurial pkg-config htop ag
 # Retrieve dotfiles
 mkdir -p $WORKSPACE
 
+#### Install Oh-My-Zsh && Change default shell to zsh
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+
 # Setup dotfiles
 ln -s $(pwd)/.tmux.conf ~/.tmux.conf
 ln -s $(pwd)/.tmux-osx.conf ~/.tmux-osx.conf
 ln -s $(pwd)/.zshrc ~/.zshrc
 ln -s $(pwd)/.gitconfig ~/.gitconfig
 ln -s $(pwd)/.vimrc ~/.vimrc
-
-#### Change default shell to zsh
-chsh -s /bin/zsh
-#### Install Oh-My-Zsh
-curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
 #### Install Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
