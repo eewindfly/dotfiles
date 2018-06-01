@@ -95,7 +95,3 @@ esac
 # GOPATH
 export GOPATH=$HOME/workspace
 export PATH=$PATH:$GOPATH/bin
-
-# for dragon project only
-#source ~/workspace/src/bitbucket.org/seanow/mercury/dragon/backend/env.sh
-#cd $DGPATH/..
