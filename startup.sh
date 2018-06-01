@@ -3,6 +3,8 @@
 # The script is used to startup a developing environment when reinstall a
 # computer. For now is OSX only
 #############################################################################
+echo "Make sure Xcode is installed, macvim needs it."
+
 export WORKSPACE=~/workspace
 
 #### Install Homebrew
