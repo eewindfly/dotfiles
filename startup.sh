@@ -32,9 +32,6 @@ ln -s $(pwd)/.vimrc ~/.vimrc
 #### Install Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-# before installing vim, fix it on new sierra platform
-sudo xcodebuild -license accept
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 #### Setup Vim
 brew cask install macvim
 vim -c 'BundleInstall' -c 'qa!'
