@@ -36,8 +36,7 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sudo xcodebuild -license accept
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 #### Setup Vim
-brew install macvim --with-override-system-vim
-brew linkapps
+brew cask install macvim
 vim -c 'BundleInstall' -c 'qa!'
 vim -c 'PluginInstall' -c 'qa!'
 ### Setup YouCompleteMe
