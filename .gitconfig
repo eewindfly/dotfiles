@@ -3,6 +3,7 @@
 	email = eewindfly@gmail.com
 [core]
 	editor = vim
+	autocrlf = true
 [color]
 	diff = auto
 	status = auto
