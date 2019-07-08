@@ -28,6 +28,7 @@ ln -s $(pwd)/.vimrc ~/.vimrc
 
 #### Install Oh-My-Zsh && Change default shell to zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+chsh -s $(which zsh)
 
 #### Install Vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
