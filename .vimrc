@@ -21,71 +21,71 @@ set fillchars+=stl:\ ,stlnc:\
 "set guifont=Monaco\ for\ Powerline:h16
 
 " Vundle> Utilities
-Bundle 'gmarik/vundle'
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'gmarik/vundle'
+Plugin 'Valloric/YouCompleteMe'
 let g:ycm_add_preview_to_completeopt = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_autoclose_preview_window_after_insertion = 1
-Bundle 'majutsushi/tagbar'
-Bundle 'jdevera/vim-protobuf-syntax'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'Lokaltog/powerline-fonts'
-Bundle 'mileszs/ack.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'jdevera/vim-protobuf-syntax'
+Plugin 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/powerline-fonts'
+Plugin 'mileszs/ack.vim'
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
-Bundle 'tsaleh/vim-align'
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/nerdtree'
-Bundle 'sjl/splice.vim'
-Bundle 'kana/vim-textobj-user'
-Bundle 'michaeljsmith/vim-indent-object'
-Bundle 'nelstrom/vim-textobj-rubyblock'
-Bundle 'kien/ctrlp.vim'
-Bundle 'airblade/vim-rooter'
-Bundle 'ervandew/supertab'
-Bundle 'vim-scripts/sudo.vim'
-" Bundle 'derekwyatt/vim-scala'
+Plugin 'tsaleh/vim-align'
+Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdtree'
+Plugin 'sjl/splice.vim'
+Plugin 'kana/vim-textobj-user'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'kien/ctrlp.vim'
+Plugin 'airblade/vim-rooter'
+Plugin 'ervandew/supertab'
+Plugin 'vim-scripts/sudo.vim'
+" Plugin 'derekwyatt/vim-scala'
 if has('mac')
-  Bundle 'rafaelfranca/rtf_pygmentize'
+  Plugin 'rafaelfranca/rtf_pygmentize'
 endif
-Bundle 'int3/vim-extradite'
-Bundle 'dharanasoft/rtf-highlight'
-Bundle 'tpope/vim-haml'
-Bundle 'tpope/vim-rails'
-" Bundle 'kchmck/vim-coffee-script'
-Bundle 'ecomba/vim-ruby-refactoring'
-Bundle 'tpope/vim-markdown'
+Plugin 'int3/vim-extradite'
+Plugin 'dharanasoft/rtf-highlight'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-rails'
+" Plugin 'kchmck/vim-coffee-script'
+Plugin 'ecomba/vim-ruby-refactoring'
+Plugin 'tpope/vim-markdown'
 if has('ruby')
-"Bundle 'vim-scripts/rubycomplete.vim'
+"Plugin 'vim-scripts/rubycomplete.vim'
 end
-Bundle 'tangledhelix/vim-octopress'
-"Bundle 'Rip-Rip/clang_complete'
-"Bundle 'itszero/javacomplete'
-Bundle 'LaTeX-Box-Team/LaTeX-Box'
+Plugin 'tangledhelix/vim-octopress'
+"Plugin 'Rip-Rip/clang_complete'
+"Plugin 'itszero/javacomplete'
+Plugin 'LaTeX-Box-Team/LaTeX-Box'
 " Vundle> lang-independent or multi-lang supported utilities
-Bundle 'fatih/vim-go'
-Bundle 'jstemmer/gotags'
-Bundle 'tpope/vim-endwise'
-Bundle 'tpope/vim-surround'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/vim-space'
-" Bundle 'scrooloose/syntastic'
+Plugin 'fatih/vim-go'
+Plugin 'jstemmer/gotags'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/vim-space'
+" Plugin 'scrooloose/syntastic'
 " Vundle> Color scheme
-Bundle 'altercation/vim-colors-solarized'
-colorscheme solarized
-Bundle 'rizzatti/funcoo.vim'
-" Bundle 'rizzatti/dash.vim'
+"Plugin 'altercation/vim-colors-solarized'
+"colorscheme solarized
+Plugin 'rizzatti/funcoo.vim'
+" Plugin 'rizzatti/dash.vim'
 " Javascript formatter
-Bundle 'maksimr/vim-jsbeautify'
+Plugin 'maksimr/vim-jsbeautify'
 " React.js
-Bundle 'mxw/vim-jsx'
+Plugin 'mxw/vim-jsx'
 " Make sure eslint is perfectly installed
 let g:syntastic_javascript_checkers = ['eslint']
 "g:godef_split=2
 filetype plugin indent on     " required!
 
-Bundle 'toyamarinyon/vim-swift'
+Plugin 'toyamarinyon/vim-swift'
 
 " Save the current file using th sudo command
 noremap <Leader>W :w !sudo tee % > /dev/null
@@ -312,7 +312,7 @@ syntax enable
 set background=dark
 set t_Co=256
 "let g:solarized_termcolors = 16
-colors solarized
+"colors solarized
 
 " Handle multiple buffers better
 set hidden

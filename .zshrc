@@ -92,6 +92,6 @@ case `uname` in
   ;;
 esac
 
-# GOPATH
-export GOPATH=$HOME/workspace
-export PATH=$PATH:$GOPATH/bin
+# GOPATH: enable them after installing golang
+#export GOPATH=$HOME/workspace/go
+#export PATH=$PATH:$GOPATH/bin
