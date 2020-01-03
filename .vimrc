@@ -332,7 +332,7 @@ set scrolloff=3
 set title
 
 " use visual bell
-set visualbell
+"set visualbell
 
 " no backup, pls.
 set nobackup
