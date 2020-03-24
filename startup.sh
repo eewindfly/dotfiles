@@ -16,7 +16,7 @@ if ! type "brew" > /dev/null; then
 fi
 
 #### Install Git and Wget
-brew install wget git tmux cmake pkg-config htop zsh
+brew install wget curl git vim tmux cmake pkg-config htop zsh
 
 #### install python3
 brew install python3
