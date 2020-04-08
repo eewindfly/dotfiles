@@ -103,3 +103,9 @@ esac
 # CUDA
 #export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 #export PATH=/usr/local/cuda/bin:$PATH
+
+# Fuzzy search
+#[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Icat
+#alias icat="kitty +kitten icat"
