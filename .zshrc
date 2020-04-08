@@ -107,5 +107,3 @@ esac
 # Fuzzy search
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# Icat
-#alias icat="kitty +kitten icat"
