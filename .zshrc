@@ -57,11 +57,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-  export EDITOR='vim'
-else
-  export EDITOR='mvim -v'
-fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -77,17 +77,6 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# docker setting
-
-# vim setting
-alias vi='vim'
-case `uname` in
-  Darwin)
-    # commands for OS X go here
-    alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-  ;;
-esac
 
 # === enable what you have installed ===
 
