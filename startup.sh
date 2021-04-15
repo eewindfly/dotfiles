@@ -26,9 +26,6 @@ ln -s $(pwd)/.gitconfig ~/.gitconfig
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 chsh -s $(which zsh)
 
-# install python packages
-pip3 install pep8 flake8 pyflakes isort yapf --user
-
 ### (OPTIONAL) install iterm2
 #brew cask install iterm2
 #echo "Please manually change iterm2->preferences->profiles->colors to 'solarized dark'"
