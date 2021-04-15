@@ -21,7 +21,6 @@ brew install wget curl git vim tmux cmake pkg-config htop zsh
 # Setup dotfiles
 ln -s $(pwd)/.zshrc ~/.zshrc
 ln -s $(pwd)/.gitconfig ~/.gitconfig
-ln -s $(pwd)/.vimrc ~/.vimrc
 
 #### Install Oh-My-Zsh && Change default shell to zsh
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
